@@ -1,0 +1,32 @@
+{
+  "category": "equipment",
+  "records": [
+    {
+      "id": "sample-equipment-001",
+      "name": "サンプル装備",
+      "category": "equipment",
+      "aliases": [
+        "見本"
+      ],
+      "description": "サンプルデータ：構造確認用です。実在の攻略情報ではありません。",
+      "sources": [],
+      "verified": false,
+      "updatedAt": "2026-10-13",
+      "isSample": true,
+      "equipType": "未確認",
+      "stats": [],
+      "dropFrom": [
+        "sample-monster-001"
+      ],
+      "materials": [
+        {
+          "id": "sample-material-001",
+          "qty": 1
+        }
+      ],
+      "related": [
+        "sample-recipe-001"
+      ]
+    }
+  ]
+}

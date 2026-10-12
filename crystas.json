@@ -1,0 +1,20 @@
+{
+  "category": "crystas",
+  "records": [
+    {
+      "id": "sample-crysta-001",
+      "name": "サンプルクリスタ",
+      "category": "crystas",
+      "aliases": [
+        "見本"
+      ],
+      "description": "サンプルデータ：構造確認用です。実在の攻略情報ではありません。",
+      "sources": [],
+      "verified": false,
+      "updatedAt": "2026-10-13",
+      "isSample": true,
+      "effect": "未確認",
+      "requirements": "未確認"
+    }
+  ]
+}

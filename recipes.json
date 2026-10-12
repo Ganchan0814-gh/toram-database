@@ -1,0 +1,26 @@
+{
+  "category": "recipes",
+  "records": [
+    {
+      "id": "sample-recipe-001",
+      "name": "サンプルレシピ",
+      "category": "recipes",
+      "aliases": [
+        "見本"
+      ],
+      "description": "サンプルデータ：構造確認用です。実在の攻略情報ではありません。",
+      "sources": [],
+      "verified": false,
+      "updatedAt": "2026-10-13",
+      "isSample": true,
+      "product": "sample-equipment-001",
+      "ingredients": [
+        {
+          "id": "sample-material-001",
+          "qty": 1
+        }
+      ],
+      "conditions": "未確認"
+    }
+  ]
+}

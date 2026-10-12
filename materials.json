@@ -1,0 +1,27 @@
+{
+  "category": "materials",
+  "records": [
+    {
+      "id": "sample-material-001",
+      "name": "サンプル素材",
+      "category": "materials",
+      "aliases": [
+        "見本"
+      ],
+      "description": "サンプルデータ：構造確認用です。実在の攻略情報ではありません。",
+      "sources": [],
+      "verified": false,
+      "updatedAt": "2026-10-13",
+      "isSample": true,
+      "usage": [
+        "sample-recipe-001"
+      ],
+      "obtain": [
+        "sample-monster-001"
+      ],
+      "recipes": [
+        "sample-recipe-001"
+      ]
+    }
+  ]
+}

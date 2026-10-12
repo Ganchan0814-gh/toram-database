@@ -1,0 +1,19 @@
+{
+  "category": "items",
+  "records": [
+    {
+      "id": "sample-item-001",
+      "name": "サンプルアイテム",
+      "category": "items",
+      "aliases": [
+        "見本"
+      ],
+      "description": "サンプルデータ：構造確認用です。実在の攻略情報ではありません。",
+      "sources": [],
+      "verified": false,
+      "updatedAt": "2026-10-13",
+      "isSample": true,
+      "obtain": []
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>トーラム攻略データベース（非公式）</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="top">
+    <h1><a href="./">⚔ トーラム攻略データベース</a></h1>
+    <button id="theme" type="button" aria-label="表示テーマ切替">🌓</button>
+  </div>
+  <input id="q" type="search" placeholder="名称・別名・説明・入手先で検索" autocomplete="off">
+</header>
+<main>
+  <div id="err" role="alert"></div>
+  <nav id="cats" aria-label="カテゴリ"></nav>
+  <div class="tools">
+    <select id="sort" aria-label="並び替え">
+      <option value="name">名前順</option>
+      <option value="new">更新日が新しい順</option>
+    </select>
+    <label><input id="ver" type="checkbox"> 確認済みのみ</label>
+    <button id="reset" type="button">リセット</button>
+  </div>
+  <p id="count"></p>
+  <div id="list"></div>
+</main>
+<section id="detail" hidden></section>
+<footer>非公式ファンサイト。ゲーム内の公式画像は使用していません。</footer>
+<script src="script.js"></script>
+</body>
+</html>
